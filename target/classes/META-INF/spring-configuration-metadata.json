@@ -1,0 +1,22 @@
+{
+  "groups": [
+    {
+      "name": "wechat",
+      "type": "com.ssss.config.WechatAccountConfig",
+      "sourceType": "com.ssss.config.WechatAccountConfig"
+    }
+  ],
+  "properties": [
+    {
+      "name": "wechat.mp-app-id",
+      "type": "java.lang.String",
+      "sourceType": "com.ssss.config.WechatAccountConfig"
+    },
+    {
+      "name": "wechat.mp-app-secret",
+      "type": "java.lang.String",
+      "sourceType": "com.ssss.config.WechatAccountConfig"
+    }
+  ],
+  "hints": []
+}

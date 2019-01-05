@@ -1,0 +1,21 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: 1234
+    url: jdbc:mysql://118.24.53.94/sss?characterEncoding=utf-8&useSSL=false
+  jpa:
+    show-sql: true
+  jackson:
+    default-property-inclusion: non_null
+  redis:
+    host: 118.24.53.94
+    port: 6379
+server:
+  servlet:
+    context-path: /shop
+wechat:
+  mpAppId: wx48bf041f15d7c2fa
+  mpAppSecret: 577fa45726908f7747f32e9543193f73
+
+
